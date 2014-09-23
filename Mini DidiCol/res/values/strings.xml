@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">minididicol</string>
+    <string name="app_version">minididicol-alpha</string>
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">5dp</item>
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+
+    <string name="comenzar">Comenzar historia</string>
+    <string   name="espere">Espere por favor..</string>
+    <string name="espereNinos">Espere a los demás niños.</string>
+    <string name="espereTablets">Espere mientras se conectan las tablets.</string>
+    <string name="cargar">Cargar</string>
+    <string name="numeroNino">Número</string>
+    <string name="numerogrupoNino">Número de grupo</string>
+	<string name="nombreNino">Nombre y apellido del niño</string>
+	<string name="grupoNino">Grupo</string>
+	
+    <string name="cerrar">Cerrar</string>
+    <string name="reiniciar">Reiniciar</string>
+
+    <string name="termine">Terminé</string>
+    
+    <string name="placeHolder">___</string>
+    
+    
+    <string name="inicio">inicio</string>
+    <string name="desarrollo">desarrollo</string>
+    <string name="cierre">cierre</string>
+    
+    <string name="ortografia">ortografía</string>
+    <string name="puntuacion">puntuación</string>
+    <string name="estructura">estructura de las oraciones</string>
+    <string name="su_ortografia">su ortografía</string>
+    <string name="su_puntuacion">su puntuación</string>
+    <string name="la_estructura">la estructura de las oraciones</string>
+    
+    <string name="descInstruction">¿De qué se trata el texto que leíste?</string>
+    <string name="descInstruction2">Cuéntale al grupo lo que leíste. Puedes usar lo que escribiste para ayudarte. Abajo están los objetos que recogiste.</string>
+    <string name="writeInstruction">Escribe el %1$s del cuento.</string>
+    <string name="writeInstruction2">Revisa el %1$s del cuento.</string>
+    
+   	<string name="karaokeInstruction">Ahora lee: %1$s</string>
+    <string name="argInstruction">%1$s: Lee el texto y analiza %2$s.</string>
+    <string name="corrInstruction">%1$s: Usando el análisis que hicieron en el paso anterior, corrige el %2$s del cuento.</string>  
+    <string name="dibujoInstruction">Haz un dibujo para acompañar el cuento que escribieron.</string>
+   <string name="dibujoInstruction2">¿Qué titulo pondrías al cuento?</string>
+     <string name="dibujoInstruction3">¡Escribe acá tu título!</string>
+     
+     <string name="finalInstruction">¡Buen trabajo! Acá está la historia que crearon.</string>
+     
+    <string name="loadDesc">Datos del niño %1$s, sus descripciones fueron:</string>
+    <string name="loadArg">Estos son los argumentadores que armaron los niños.</string>
+  	<string name="loadDibujo">Dibujo del niño.</string>
+  	
+
+  	
+<!--  Las comillas son importantes! >"asdf"<  -->
+<string-array name="arg_seleccion_ort">
+   <item>"
+La ortografía
+en el inicio
+es suficiente	es insuficiente	
+porque		
+se usan correctamente los acentos gráficos o tildes	no se usan correctamente los acentos gráficos o tildes
+y	pero	
+se usan correctamente las mayúsculas.	faltan algunas mayúsculas.	
+	"</item><item>"
+La ortografía
+en el desarrollo
+es suficiente	es insuficiente	
+porque		
+se usan correctamente los acentos gráficos o tildes	no se usan correctamente los acentos gráficos o tildes	
+y	pero	
+se usan correctamente las mayúsculas.	faltan algunas mayúsculas.	
+	"</item><item>"
+La ortografía
+en el cierre
+es suficiente	es insuficiente	
+porque		
+se usan correctamente los acentos gráficos o tildes	no se usan correctamente los acentos gráficos o tildes	
+y	pero	
+se usan correctamente las mayúsculas.	faltan algunas mayúsculas.
+	"</item></string-array>
+	
+    <string-array name="arg_seleccion_vocab">
+<item>"
+La puntuación
+en el inicio
+es suficiente	es insuficiente	
+porque		
+se usa correctamente el punto seguido para separar ideas	no se usa correctamente el punto seguido para separar ideas
+y	pero	
+se usan correctamente las comas.	no se usan correctamente las comas.	
+	"</item><item>"
+La puntuación
+en el desarrollo
+es suficiente	es insuficiente	
+porque		
+se usa correctamente el punto seguido para separar ideas	no se usa correctamente el punto seguido para separar ideas
+y	pero	
+se usan correctamente las comas.	no se usan correctamente las comas.	
+	"</item><item>"
+La puntuación
+en el cierre
+es suficiente	es insuficiente	
+porque		
+se usa correctamente el punto seguido para separar ideas	no se usa correctamente el punto seguido para separar ideas
+y	pero	
+se usan correctamente las comas.	no se usan correctamente las comas.
+	"</item></string-array>
+
+        <string-array name="arg_seleccion_verbos">
+            <item>"
+La estructura de las oraciones
+en el inicio
+es suficiente	es insuficiente	
+porque		
+todas las oraciones que se usan están completas	hay oraciones que están incompletas
+y	pero
+no se repiten palabras dentro del párrafo.	se repiten palabras dentro del párrafo.
+	"</item><item>"
+La estructura de las oraciones
+en el desarrollo
+es suficiente	es insuficiente	
+porque		
+todas las oraciones que se usan están completas	hay oraciones que están incompletas
+y	pero
+no se repiten palabras dentro del párrafo.	se repiten palabras dentro del párrafo.
+	"</item><item>"
+La estructura de las oraciones
+en el cierre
+es suficiente	es insuficiente	
+porque		
+todas las oraciones que se usan están completas	hay oraciones que están incompletas
+y	pero
+no se repiten palabras dentro del párrafo.	se repiten palabras dentro del párrafo.
+	"</item></string-array>
+    
+</resources>

@@ -1,0 +1,104 @@
+<com.didithemouse.didiplus.dragdrop.DragLayer 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/canvas_big_draglayer"
+    android:splitMotionEvents="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2D585">
+
+    <RelativeLayout
+        android:id="@+id/canvas_layout"
+        android:splitMotionEvents="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f8e5af" >
+
+           <RelativeLayout
+        android:layout_width="fill_parent"
+        android:splitMotionEvents="false"
+        android:layout_height="63dip"
+        android:layout_margin="0dip"
+        android:background="@drawable/topleather"
+        android:orientation="horizontal" >
+
+        
+    </RelativeLayout>
+        
+           <RelativeLayout
+            android:id="@+id/kids_rellayout"
+            android:layout_width="150dp"
+            android:layout_height="670dip"
+            android:splitMotionEvents="false"
+            android:layout_marginTop="63dp"
+            android:orientation="horizontal">
+ 
+               
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/canvas_rellayout"
+            android:layout_width="850dp"
+            android:layout_height="670dip"
+            android:splitMotionEvents="false"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="150dip"
+            android:layout_marginTop="63dp"
+            android:orientation="horizontal"
+             android:background="@drawable/spiralnotebook_create" >
+
+
+                <FrameLayout
+                android:id="@+id/canvas_framelayout"
+                    android:splitMotionEvents="false"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                android:layout_width="810dp"
+                android:layout_height="620dip" >
+
+            </FrameLayout>
+            
+
+        </RelativeLayout>
+    
+
+        
+
+        
+        <RelativeLayout
+            android:id="@+id/canvas_toolbarlayout"
+            android:layout_width="850dip"
+            android:layout_height="50dip"
+            android:splitMotionEvents="false"
+            android:layout_alignParentBottom="true"
+            
+            android:layout_marginLeft="150dip"
+            android:background="#f8e5af" >
+
+
+
+        </RelativeLayout>
+        	        <LinearLayout
+            android:id="@+id/objectscanvas2"
+            android:layout_marginTop="63dp"
+            android:layout_width="280dip"
+            android:layout_height="match_parent"
+            android:splitMotionEvents="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#f8e5af"
+            android:orientation="vertical" >
+    	</LinearLayout>
+    	
+        	        <Button
+            android:id="@+id/terminar"
+            android:splitMotionEvents="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/flecha"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/flecha" />
+        	        
+    </RelativeLayout>
+
+</com.didithemouse.didiplus.dragdrop.DragLayer>
